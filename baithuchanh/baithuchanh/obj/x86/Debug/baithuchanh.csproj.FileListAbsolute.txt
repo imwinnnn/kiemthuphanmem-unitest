@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\bin\Debug\baithuchanh.exe
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\bin\Debug\baithuchanh.pdb
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\baithuchanh.Properties.Resources.resources
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\baithuchanh.exe
+C:\Users\Admin\Desktop\baithuchanh\baithuchanh\obj\x86\Debug\baithuchanh.pdb

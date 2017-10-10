@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f4c8e88d-1f41-4d16-ae02-4326f724bfd8" name="Admin@D48 2017-10-10 14:08:18" runUser="D48\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="061fe276-6159-4989-b5e2-49ef28c724c6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D48 2017-10-10 14_08_18">
+      <DeploymentItem filename="C:\Users\Admin\Desktop\baithuchanh\baithuchanh\bin\Debug\baithuchanh.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-10-10T14:08:18.3807373+07:00" queuing="2017-10-10T14:08:18.3997384+07:00" start="2017-10-10T14:08:18.4217396+07:00" finish="2017-10-10T14:08:18.7017556+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestIfnlonHon0" storage="c:\users\admin\desktop\baithuchanh\testproject1\bin\debug\testproject1.dll" id="d1cd1f79-59f7-f4aa-74da-5cd6109c4a64">
+      <Execution id="bad78115-9a5b-4d94-8908-79f78d826520" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/baithuchanh/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfnlonHon0" />
+    </UnitTest>
+    <UnitTest name="TestIfnbang0" storage="c:\users\admin\desktop\baithuchanh\testproject1\bin\debug\testproject1.dll" id="3e908de4-f17f-4162-dafd-44cbf2912ce6">
+      <Execution id="4a819f3a-1afb-475b-ba38-b160e965e227" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/baithuchanh/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfnbang0" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3e908de4-f17f-4162-dafd-44cbf2912ce6" executionId="4a819f3a-1afb-475b-ba38-b160e965e227" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1cd1f79-59f7-f4aa-74da-5cd6109c4a64" executionId="bad78115-9a5b-4d94-8908-79f78d826520" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4a819f3a-1afb-475b-ba38-b160e965e227" testId="3e908de4-f17f-4162-dafd-44cbf2912ce6" testName="TestIfnbang0" computerName="D48" duration="00:00:00.0133483" startTime="2017-10-10T14:08:18.4237397+07:00" endTime="2017-10-10T14:08:18.6247512+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a819f3a-1afb-475b-ba38-b160e965e227">
+    </UnitTestResult>
+    <UnitTestResult executionId="bad78115-9a5b-4d94-8908-79f78d826520" testId="d1cd1f79-59f7-f4aa-74da-5cd6109c4a64" testName="TestIfnlonHon0" computerName="D48" duration="00:00:00.0127180" startTime="2017-10-10T14:08:18.6537529+07:00" endTime="2017-10-10T14:08:18.6787543+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bad78115-9a5b-4d94-8908-79f78d826520">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;25&gt;. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.TestIfnlonHon0() in C:\Users\Admin\Desktop\baithuchanh\TestProject1\UnitTest1.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
